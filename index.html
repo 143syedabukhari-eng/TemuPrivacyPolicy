@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Temu Data Extractor</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔍</text></svg>">
+    <title>Privacy Policy - Data Extractor for Temu</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛍️</text></svg>">
     <style>
         * {
             margin: 0;
@@ -13,10 +13,10 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: #2c3e50;
-            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+            background: #f7f8fa;
             min-height: 100vh;
             padding: 20px;
         }
@@ -27,7 +27,7 @@
             background: white;
             border-radius: 20px;
             padding: 50px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
             border: 1px solid #e1e8ed;
         }
         
@@ -35,7 +35,7 @@
             text-align: center;
             margin-bottom: 40px;
             padding-bottom: 30px;
-            border-bottom: 3px solid #4CAF50;
+            border-bottom: 3px solid #FB7701;
         }
         
         .logo {
@@ -44,7 +44,7 @@
             gap: 15px;
             margin-bottom: 20px;
             padding: 15px 30px;
-            background: linear-gradient(135deg, #4CAF50, #2e7d32);
+            background: linear-gradient(135deg, #FB7701, #e66a01);
             color: white;
             border-radius: 15px;
             font-size: 24px;
@@ -52,50 +52,50 @@
         }
         
         h1 {
-            font-size: 42px;
-            color: #2c3e50;
+            font-size: 36px;
+            color: #1a1a1b;
             margin-bottom: 15px;
-            font-weight: 700;
+            font-weight: 800;
         }
         
         .subtitle {
-            color: #666;
+            color: #5f6368;
             font-size: 18px;
             margin-bottom: 30px;
         }
         
         .last-updated {
             display: inline-block;
-            background: #e8f5e9;
-            color: #2e7d32;
+            background: #fdf2e9;
+            color: #e66a01;
             padding: 10px 25px;
             border-radius: 50px;
             font-size: 14px;
-            font-weight: 600;
+            font-weight: 700;
             margin-bottom: 30px;
-            border: 2px solid #4CAF50;
+            border: 1px solid #FB7701;
         }
         
         h2 {
-            color: #2c3e50;
-            font-size: 28px;
+            color: #1a1a1b;
+            font-size: 26px;
             margin: 40px 0 20px 0;
             padding-bottom: 10px;
             border-bottom: 2px solid #f0f0f0;
-            font-weight: 600;
+            font-weight: 700;
         }
         
         h3 {
-            color: #34495e;
-            font-size: 20px;
+            color: #3c4043;
+            font-size: 19px;
             margin: 25px 0 15px 0;
-            font-weight: 600;
+            font-weight: 700;
         }
         
-        p {
-            margin-bottom: 20px;
+        p, li {
+            margin-bottom: 15px;
             font-size: 16px;
-            color: #555;
+            color: #3c4043;
             line-height: 1.7;
         }
         
@@ -104,24 +104,17 @@
             margin-bottom: 25px;
         }
         
-        li {
-            margin-bottom: 12px;
-            font-size: 16px;
-            color: #555;
-            line-height: 1.6;
-        }
-        
         .highlight-box {
-            background: #f8f9fa;
-            border-left: 5px solid #4CAF50;
+            background: #fff9f4;
+            border-left: 5px solid #FB7701;
             padding: 25px;
             margin: 25px 0;
             border-radius: 10px;
         }
         
         .warning-box {
-            background: #fff3e0;
-            border-left: 5px solid #ff9800;
+            background: #f8f9fa;
+            border-left: 5px solid #5f6368;
             padding: 25px;
             margin: 25px 0;
             border-radius: 10px;
@@ -129,39 +122,32 @@
         
         .permission-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
             margin: 25px 0;
         }
         
         .permission-item {
             background: white;
-            border: 2px solid #e0e0e0;
+            border: 1px solid #dadce0;
             border-radius: 12px;
             padding: 20px;
-            transition: all 0.3s;
-        }
-        
-        .permission-item:hover {
-            border-color: #4CAF50;
-            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.1);
-            transform: translateY(-2px);
         }
         
         .permission-title {
-            color: #2c3e50;
-            font-weight: 600;
-            margin-bottom: 10px;
-            font-size: 16px;
+            color: #1a1a1b;
+            font-weight: 700;
+            margin-bottom: 8px;
+            font-size: 15px;
         }
         
         .permission-desc {
-            color: #666;
-            font-size: 14px;
+            color: #5f6368;
+            font-size: 13px;
         }
         
         .contact-box {
-            background: linear-gradient(135deg, #4CAF50, #2e7d32);
+            background: linear-gradient(135deg, #FB7701, #e66a01);
             color: white;
             padding: 30px;
             border-radius: 15px;
@@ -169,237 +155,131 @@
             text-align: center;
         }
         
-        .contact-box h3 {
-            color: white;
-            margin-bottom: 15px;
-        }
-        
         .contact-email {
-            font-size: 20px;
-            font-weight: 600;
+            font-size: 18px;
+            font-weight: 700;
             margin: 15px 0;
             color: white;
             text-decoration: none;
             display: inline-block;
-            padding: 10px 20px;
-            background: rgba(255, 255, 255, 0.1);
+            padding: 10px 25px;
+            background: rgba(255, 255, 255, 0.15);
             border-radius: 50px;
-            border: 2px solid rgba(255, 255, 255, 0.3);
-        }
-        
-        .contact-email:hover {
-            background: rgba(255, 255, 255, 0.2);
-            border-color: white;
+            border: 1px solid white;
         }
         
         .back-button {
             display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: #4CAF50;
+            background: #1a1a1b;
             color: white;
-            padding: 15px 30px;
+            padding: 12px 30px;
             border-radius: 50px;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 16px;
-            margin-top: 30px;
-            transition: all 0.3s;
-            border: none;
-            cursor: pointer;
-        }
-        
-        .back-button:hover {
-            background: #2e7d32;
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(76, 175, 80, 0.3);
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 20px;
         }
         
         footer {
             text-align: center;
             margin-top: 50px;
             padding-top: 30px;
-            border-top: 1px solid #e0e0e0;
-            color: #666;
-            font-size: 14px;
+            border-top: 1px solid #e8eaed;
+            color: #70757a;
+            font-size: 13px;
         }
-        
-        @media (max-width: 768px) {
-            .container {
-                padding: 30px 20px;
-                margin: 20px auto;
-            }
-            
-            h1 {
-                font-size: 32px;
-            }
-            
-            h2 {
-                font-size: 24px;
-            }
-            
-            .permission-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .logo {
-                font-size: 20px;
-                padding: 12px 20px;
-            }
-        }
-        
-        code {
-            background: #f5f5f5;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-family: 'Courier New', monospace;
-            font-size: 14px;
-            color: #d63384;
-        }
+
+        code { background: #f1f3f4; padding: 2px 5px; border-radius: 4px; color: #d93025; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="logo">
-                <span>🔍</span>
-                <span>Temu Data Extractor</span>
+                <span>🛍️</span>
+                <span>Data Extractor for Temu</span>
             </div>
             <h1>Privacy Policy</h1>
-            <p class="subtitle">Transparent data practices for our Chrome Extension</p>
+            <p class="subtitle">Commitment to Data Transparency & User Privacy</p>
             <div class="last-updated">
-                📅 Last Updated: December 2023
+                📅 Updated: March 2026
             </div>
         </div>
         
         <div class="highlight-box">
-            <p><strong>🔒 Core Privacy Principle:</strong> All data processing happens locally in your browser. No data is sent to external servers or third parties.</p>
+            <p><strong>🔒 Zero-Server Processing:</strong> All data extraction and processing occur strictly within your local browser environment. We do not transmit, sell, or store your data on external servers.</p>
         </div>
         
-        <h2>1. Introduction</h2>
-        <p>Welcome to the Temu Data Extractor Chrome extension ("Extension"). This Privacy Policy explains how we handle information when you use our Extension. We are committed to protecting your privacy and being transparent about our data practices.</p>
+        <h2>1. Purpose of Information Access</h2>
+        <p>The Extension is designed to facilitate e-commerce market research by allowing users to export publicly available product data into structured formats. Data access is strictly user-initiated.</p>
         
-        <h2>2. Information We Access</h2>
-        <p>Our extension only accesses data when you explicitly click the "Scrape Data" button:</p>
+        <h2>2. Data Points Extracted</h2>
+        <p>When a user triggers the "Scrape" action, the Extension reads the following public information from the active Temu.com tab:</p>
         
-        <h3>📊 Public Product Data from Temu.com:</h3>
+        <h3>📦 Product Details:</h3>
         <ul>
-            <li><strong>Product Information:</strong> Titles, prices, descriptions, specifications</li>
-            <li><strong>Ratings & Reviews:</strong> Star ratings, review counts, customer feedback</li>
-            <li><strong>Sales Data:</strong> Units sold, popularity indicators</li>
-            <li><strong>Product Details:</strong> Available colors, sizes, variants, images</li>
-            <li><strong>Store Information:</strong> Seller names, store ratings</li>
+            <li>Titles, Prices (Sale & Original), and Discounts.</li>
+            <li>Units Sold, Star Ratings, and Bestseller Rankings.</li>
+            <li>Shipping Estimates and Localized Delivery Timelines.</li>
+            <li>Stock availability indicators and inventory warnings.</li>
+            <li>Product Variants: All available color and size options.</li>
         </ul>
         
-        <h3>💾 Local Browser Storage:</h3>
+        <h3>🏬 Seller & Store Information:</h3>
         <ul>
-            <li><strong>User Preferences:</strong> Your selected export format, column choices</li>
-            <li><strong>Scraped Data:</strong> Temporarily stored before export</li>
-            <li><strong>Settings:</strong> Filter preferences, sort options</li>
+            <li>Store Names, Store Ratings, and Total Shop Sales.</li>
+            <li>Follower counts and professional seller badges.</li>
         </ul>
         
         <div class="warning-box">
-            <p><strong>⚠️ What We DO NOT Access:</strong></p>
+            <p><strong>🚫 Data We NEVER Access:</strong></p>
             <ul>
-                <li>Personal information (name, email, address)</li>
-                <li>Payment or financial details</li>
-                <li>Login credentials or passwords</li>
-                <li>Your browsing history outside Temu.com</li>
-                <li>Other tabs or browser activity</li>
+                <li>Personally Identifiable Information (PII) like names or emails.</li>
+                <li>Credit card, banking, or billing information.</li>
+                <li>User login credentials or account passwords.</li>
+                <li>Browsing history or data from non-Temu websites.</li>
             </ul>
         </div>
         
-        <h2>3. How We Use Information</h2>
-        <p>All data processing is performed locally in your browser:</p>
-        <ul>
-            <li><strong>Data Extraction:</strong> Parse Temu.com HTML to extract product information</li>
-            <li><strong>Data Formatting:</strong> Structure data for CSV, Excel, or JSON export</li>
-            <li><strong>Local Storage:</strong> Save preferences and extracted data between sessions</li>
-            <li><strong>UI Display:</strong> Show extracted data in the extension popup</li>
-        </ul>
-        
-        <h2>4. Permission Justifications</h2>
-        <p>Our extension requires these Chrome permissions to function:</p>
-        
+        <h2>3. Permission Justifications</h2>
         <div class="permission-grid">
             <div class="permission-item">
-                <div class="permission-title">🔗 activeTab Permission</div>
-                <div class="permission-desc">Access the current Temu.com tab only when you click our icon. Allows reading visible product data.</div>
+                <div class="permission-title">activeTab</div>
+                <div class="permission-desc">Required to identify and read product data from the Temu page you are currently viewing.</div>
             </div>
-            
             <div class="permission-item">
-                <div class="permission-title">💾 storage Permission</div>
-                <div class="permission-desc">Save your preferences and scraped data locally using Chrome's storage API.</div>
+                <div class="permission-title">storage</div>
+                <div class="permission-desc">Power the "Smart Memory" and "Saved List" features by caching data locally on your device.</div>
             </div>
-            
             <div class="permission-item">
-                <div class="permission-title">⚙️ scripting Permission</div>
-                <div class="permission-desc">Execute content scripts on Temu.com pages to extract product data.</div>
+                <div class="permission-title">sidePanel</div>
+                <div class="permission-desc">Enables the persistent sidebar workspace for a better data-viewing experience while browsing.</div>
             </div>
-            
             <div class="permission-item">
-                <div class="permission-title">🌐 *.temu.com Host Permission</div>
-                <div class="permission-desc">Access all Temu regional domains (us.temu.com, uk.temu.com, etc.) and their product pages.</div>
+                <div class="permission-title">downloads</div>
+                <div class="permission-desc">Allows the tool to save your extracted tables as Excel, CSV, or JSON files to your computer.</div>
+            </div>
+            <div class="permission-item">
+                <div class="permission-title">scripting</div>
+                <div class="permission-desc">Used to inject on-demand scraping logic into the page when you click the "Scrape" button.</div>
             </div>
         </div>
         
-        <h2>5. Data Storage & Processing</h2>
-        <p><strong>Local Processing Only:</strong> All data extraction, processing, and storage happens within your Chrome browser. No data leaves your computer.</p>
-        
-        <p><strong>Storage Location:</strong> Data is stored using Chrome's <code>chrome.storage.local</code> API. This data:</p>
-        <ul>
-            <li>Persists until you clear it or uninstall the extension</li>
-            <li>Is not synced to Google servers</li>
-            <li>Is not accessible by other extensions or websites</li>
-            <li>Can be cleared anytime via the "Clear Data" button</li>
-        </ul>
-        
-        <h2>6. Third-Party Libraries</h2>
-        <p>We use the following open-source libraries:</p>
-        <ul>
-            <li><strong>SheetJS (xlsx.js):</strong> For Excel file generation. Runs locally in your browser.</li>
-        </ul>
-        
-        <h2>7. Your Rights & Control</h2>
-        <p>You have complete control over your data:</p>
-        <ul>
-            <li><strong>Clear Data:</strong> Use the "Clear Data" button to remove all stored information</li>
-            <li><strong>Choose Data:</strong> Select which product fields to extract and export</li>
-            <li><strong>Uninstall:</strong> Removing the extension deletes all locally stored data</li>
-            <li><strong>Export Data:</strong> Download your data in CSV, Excel, or JSON format</li>
-        </ul>
-        
-        <h2>8. Children's Privacy</h2>
-        <p>Our extension is not directed to individuals under the age of 13. We do not knowingly collect personal information from children under 13.</p>
-        
-        <h2>9. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy periodically. We will notify users of significant changes by updating the "Last Updated" date. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+        <h2>4. Local Storage & Security</h2>
+        <p>Your data is stored using the <code>chrome.storage.local</code> API. This data is private to your browser profile and is not synced to Google accounts or third-party databases. You may clear all stored data at any time using the "Clear Data" button within the extension UI.</p>
         
         <div class="contact-box">
-            <h3>Contact Information</h3>
-            <p>If you have questions about this Privacy Policy or our data practices:</p>
-            <a href="mailto:privacy@temu-data-extractor.com" class="contact-email">privacy@temu-data-extractor.com</a>
-            <p style="margin-top: 15px; opacity: 0.9;">
-                Chrome Web Store ID: <code>cgoijgdndnapaahblajceojpfnofmghn</code>
-            </p>
+            <h3>Support & Inquiries</h3>
+            <p>For questions regarding this policy or technical assistance:</p>
+            <a href="mailto:support@trendizoclicks.com" class="contact-email">support@trendizoclicks.com</a>
         </div>
         
-        <h2>10. Legal Compliance</h2>
-        <p>This extension complies with:</p>
-        <ul>
-            <li>Chrome Web Store Developer Program Policies</li>
-            <li>General Data Protection Regulation (GDPR) principles</li>
-            <li>Temu.com Terms of Service (read-only access to public data)</li>
-        </ul>
-        
-        <a href="https://chrome.google.com/webstore/detail/temu-data-extractor/cgoijgdndnapaahblajceojpfnofmghn" class="back-button">
-            ← Back to Chrome Web Store Listing
-        </a>
+        <a href="#" class="back-button">← Return to Store</a>
         
         <footer>
-            <p>Temu Data Extractor Chrome Extension | Privacy Policy</p>
-            <p style="margin-top: 10px; font-size: 12px; opacity: 0.7;">
-                This page is hosted on GitHub Pages. <a href="https://github.com/syeda977/TemuExtractorPrivacyPolicy" style="color: #4CAF50;">View Source</a>
+            <p>© 2026 Data Extractor for Temu | All Processing is Local</p>
+            <p style="margin-top: 10px; font-size: 11px; opacity: 0.6;">
+                This extension is an independent tool and is not affiliated with, authorized, maintained, sponsored, or endorsed by Temu.com or its affiliates.
             </p>
         </footer>
     </div>
